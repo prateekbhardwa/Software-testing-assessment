@@ -1,0 +1,34 @@
+Product Owner:
+1) Acceptance Criteria.
+2) Priority for each of the requirement.
+3) What is the actual objective and purpose of this requirement.
+4) What testing strategies and methodologies are we planning to use.
+5) If automation has to be done then what should be the prerequisites for it i.e tools and technologies
+6) How many users, the administrator should be able to add in single go.
+7) What are the licensing requirements i.e which license should be considered as the valid one.
+8) The data for dummy users.
+9) What should be the test management and defect logging tool.
+10) How to measure the test coverage.
+11) Responsibility checklists.
+12) How many level of approvals are needed for the user to be added.
+13) what all roles are authorised to edit or delete the users.
+14) Deciding the capacity for each resource of the scrum team.
+
+UX designer:
+1) The basic UI of the requirement.
+2) The tabs and fields that would be there and have to be tested.
+3) Any other module that is being effected by this change so as such we can make sure that the existing
+functionality is working all fine.
+4) Load Testing Requirements.
+5) Unit testing deliverables and results.
+6) Complete black box or white box.
+7) Dependencies.
+8) Dummy data to be used.
+
+Technical Architect:
+1) The basic design of the application related to this feature.
+2) What is the scalability of the requirement i.e the capacity of size that can be increased with the number of users.
+3) Is there any back up plan if the main UI doesnt work right.
+4) what should be the session time out time.
+5) Can the users who are not the administrators work on this requirement by using any proxy URL or authorisation.
+6) How to provide the admin access to the users.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.286">
+    <testcase classname="Navigating to the saucelab website and adding the product to the cart" name="Add the product to the cart" time="8.08">
+        <system-out>
+            <![CDATA[Given Navigate to the site URL..............................................passed
+Given The user enters the username as "standard_user" and password as "secret_sauce".passed
+And The user clicks on the login button.....................................passed
+When The user clicks on the product sort container..........................passed
+And Select the sort option as "Price (low to high)".........................passed
+And Select the inventory item name as Sauce Labs Onesie.....................passed
+When The user clicks on the Add to cart button..............................passed
+Then Navigate to the one page backwards.....................................passed
+And Select the inventory item name as Sauce Labs Fleece Jacket..............passed
+When The user clicks on the Add to cart button for fleece jacket............passed
+And The user navigates to the shopping cart link............................passed
+Then Validate the item name in the cart.....................................passed
+Then Click on the check out button..........................................passed
+And Fill the relevant details...............................................passed
+Then Click on the Continue Button...........................................passed
+Then Click on the finish button.............................................passed
+And Validate the order confirmation.........................................passed
+Then Logout of the application..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
